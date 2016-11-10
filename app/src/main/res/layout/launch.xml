@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/launcher_layout"
+    android:background="@color/cardview_dark_background"
+    >
+
+    <ImageView
+        android:id="@+id/TextView08"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/icon"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+         />
+
+    <!--create-->
+    <Button
+        android:id="@+id/resister2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="create"
+        android:layout_below="@+id/login_bt2"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@+id/login_bt2"
+        android:layout_alignEnd="@+id/login_bt2" />
+
+    <!-- login-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="login"
+        android:id="@+id/login_bt2"
+        android:layout_below="@+id/TextView08"
+        android:layout_alignStart="@+id/TextView08"
+        android:layout_marginTop="51dp"
+        android:layout_alignEnd="@+id/TextView08" />
+
+
+</RelativeLayout>
